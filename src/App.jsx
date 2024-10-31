@@ -1,5 +1,6 @@
 
 import './App.css'
+import Grandpa from './componentes/GrandPa/Grandpa'
 import ReuseableForm from './componentes/ReuseableForm/ReuseableForm'
 // import HookForm from './componentes/HookForm/HookForm'
 // import ControlFrom from './componentes/ControlForm/ControlFrom'
@@ -20,7 +21,8 @@ function App() {
   return (
     <>
       
-      <h1 className='font-bold text-3xl py-3'>Form</h1>
+      <h1 className='font-bold text-3xl py-3'>Form Master</h1>
+      <Grandpa></Grandpa>
       {/* <ControlFrom></ControlFrom> */}
       {/* <SimpleForm></SimpleForm> */}
       {/* <RefForm></RefForm> */}
