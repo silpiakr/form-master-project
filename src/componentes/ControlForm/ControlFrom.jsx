@@ -34,7 +34,7 @@ const ControlFrom = () => {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <input name={name} onChange={handleNameChange} className="border border-gray-700 rounded-full px-6 py-2 bg-transparent mb-2" type="text" placeholder="Enter your Name" />
+                <input value={name} onChange={handleNameChange} name="name" className="border border-gray-700 rounded-full px-6 py-2 bg-transparent mb-2" type="text" placeholder="Enter your Name" />
                 <br />
                 <input onChange={handleEmailChange} className="border border-gray-700 rounded-full px-6 py-2 bg-transparent mb-2" type="email" name="email" placeholder="Enter your email" />
                 <br />

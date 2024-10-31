@@ -14,7 +14,7 @@ const SimpleForm = () => {
                 <br />
                 <input className="border border-gray-700 rounded-full px-6 py-2 bg-transparent mb-2" type="text" name="email" placeholder="Enter your email" />
                 <br />
-                <input className="border border-gray-700 rounded-full px-6 py-2 bg-transparent mb-2" type="text" name="phone" placeholder="Enter your phone number" />
+                <input className="border border-gray-700 rounded-full px-6 py-2 bg-transparent mb-2" type="text" name="password" placeholder="password" />
                 <br />
                 <input className="btn hover:bg-green-400 border hover:text-white font-bold border-gray-700 px-6 py-2 bg-transparent mb-2" name="" type="submit" value="submit" />
             </form>
